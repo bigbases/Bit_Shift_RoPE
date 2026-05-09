@@ -1,4 +1,4 @@
-# Bit-Shift RoPE for Spiking Transformers
+# BitShift-RoPE for Spiking Transformers
 
 **Multiplication-Free Rotary Positional Embedding for Spiking Neural Networks via Cyclic Bit-Shift**
 
