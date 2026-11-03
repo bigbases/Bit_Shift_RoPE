@@ -2,6 +2,8 @@
 
 **Multiplication-Free Rotary Positional Embedding for Spiking Neural Networks via Cyclic Bit-Shift**
 
+🎉 **Accepted to NeurIPS 2026** — *BitShift-RoPE: Zero-FLOP Relative Positional Encoding for Spiking Neural Network Transformers*
+
 This repository implements a **bit-shift / cyclic-shift based Rotary Positional Embedding (RoPE)** tailored for **Spiking Neural Networks (SNNs)**. Instead of applying the conventional multiplicative complex rotation used in standard RoPE (which is incompatible with the binary spike domain), we approximate the rotation by an integer (bit-shift) cyclic permutation of feature dimensions. The shift amount is derived from a frequency-decay schedule and realized with a **single cached `torch.gather`**, making it efficient and fully spike-compatible.
 
 ## Key Contributions
